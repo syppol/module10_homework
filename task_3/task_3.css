@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(240, 250, 255);
+}
+
+#chat {
+    width: 400px;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: rgb(215, 245, 251);
+}
+
+.info_output {
+    color: grey;
+    font-style: italic;
+}
+
+.chat_output {
+    margin: 20px 0;
+    border: 4px solid rgb(28, 168, 244);
+    background-color: rgb(220, 242, 253);
+    padding: 10px;
+    height: 150px;
+    overflow-y: scroll;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.chat_output>div {
+    max-width: 80%;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.chat_output .recieved {
+    border: 2px solid rgb(28, 168, 244);
+    border-radius: 20px;
+    align-self: flex-start;
+    color: #35373c;
+    background-color: rgb(246, 240, 216);
+}
+
+.chat_output .sent {
+    border: 2px solid rgb(28, 168, 244);
+    border-radius: 20px;
+    align-self: flex-end;
+    color: rgb(28, 168, 244);
+    background-color: rgb(240, 250, 255);
+}
+
+.chat_input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat_input input {
+    padding: 5px 10px;
+    border: 3px solid rgb(28, 168, 244);;
+}
+
+.btn_send {
+    padding: 7px 10px;
+    color: #fff;
+    background: rgb(28, 168, 244);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn_geo {
+    padding: 7px 10px;
+    color: #fff;
+    background: rgb(28, 168, 244);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.geolink {
+    text-decoration: none;
+    max-width: 80%;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border: 2px solid rgb(28, 168, 244);
+    border-radius: 20px;
+    align-self: flex-end;
+    color: rgb(28, 168, 244);
+    background-color: rgb(240, 250, 255);
+}
